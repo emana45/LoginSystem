@@ -1,0 +1,67 @@
+:root{
+    --bg-main-color:#24353F;
+    --main-text-color : #17A2B8;
+    font-family:"Titillium Web", sans-serif;
+}
+
+
+.bg-main {
+    background-color: var(--bg-main-color);
+}
+
+h1{
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size:40px;
+    line-height:48px ;
+}
+
+.box-info , .box-name , .navbar{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+.box-info , .box-name
+{
+    width:60%
+}
+
+
+.form-control{
+    background-color: var(--bg-main-color);
+    border-color:whitesmoke;
+    color:#B6B2B2 ;
+}
+
+.form-control:focus {
+    background-color: var(--bg-main-color);
+    box-shadow: none;
+}
+
+.inner-box a{
+ text-decoration: none;
+}
+
+
+.inner-box a:hover{
+   text-decoration: underline;
+}
+
+.btn:hover{
+    color:white
+}
+
+.success{
+    color:#28A742;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.btn-outline-warning {
+    color:#B6B2B2
+}
+
+.navbar-brand:hover{
+    color:white;
+}

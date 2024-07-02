@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main2.css">
+</head>
+
+<body>
+    <div class="log-page text-center  vh-100 p-5 bg-main" id="logPage">
+        <div class="box-info m-auto py-5 px-5 ">
+            <div class="inner-box px-3">
+                <h1 class="mb-4">Smart Login System</h1>
+                <input type="email" class="form-control mb-3 " placeholder="Enter your email" id="userEmail">
+                <input type="password" class="form-control mb-3  " placeholder="Enter your password" id="userPassword">
+                <span class="success d-none" id="success">Success</span>
+                <span class="text-danger d-none" id="emailAlert">Invalid Email!</span>
+                <span class="text-danger d-none" id="passAlert">Invalid Password!</span>
+                <span class="text-danger d-none" id="regAlert">Please Registrate First!</span>
+                <button class="btn btn-outline-info w-100 mt-3" id="logBtn" onclick="checkEmail()">Login</button>
+                <p class="mt-4 text-white fs-6" id="signUp">Don't have an account? <a href="#" class="text-white"
+                        onclick="SignUp()"> Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index2.js"></script>
+</body>
+
+</html>
